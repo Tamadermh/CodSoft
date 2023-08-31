@@ -1,0 +1,125 @@
+body{
+    background:rgb(255, 174, 81);
+}
+
+#form{
+    width: 54%;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    height: 30rem;
+    position: relative;
+    left: 17rem;
+    top: 3rem;
+    padding: 1rem;
+}
+.title{
+    text-align: center;
+    font-family: 'Borel', cursive;
+    font-size: 2rem;
+}
+#input1{
+    padding-left: 1rem;
+    padding-right: 6rem;
+    width: 25rem;
+    height: 3rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    left: 5.3rem;
+    position: relative;
+    font-family: 'Borel', cursive;
+}
+#butn{
+    border-radius: 1rem;
+    padding: .88rem 1.71rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    position: relative;
+    background: rgba(237, 182, 237);
+    font-family: 'Borel', cursive;
+}
+#butn2{
+    border-radius: 1rem;
+    padding: .88rem 1.71rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    position: absolute;
+    background: rgba(237, 182, 237);
+    font-family: 'Borel', cursive;
+    left: 24rem;
+    top: 31rem;
+    width: 38%;
+}
+#butn:hover{
+    background: goldenrod;
+}
+#butn2:hover{
+    background: rgb(169, 2, 2);
+}
+ul li{
+    background: white;
+    margin-bottom: 3rem;
+    border-radius: 19px;
+    width: 19rem;
+    list-style: none;
+    font-size: .7rem;
+    font-family: 'Borel', cursive;
+    padding: 1rem 1rem;
+    position: relative;
+
+    top: 1.7rem;
+    display: flex;
+    margin-top: -32px;
+}
+
+ul li i{
+    position: absolute;
+    right: 0.5rem;
+    top: .5rem;
+    width: 2rem;
+    height: 2rem;
+    background:rgba(237, 182, 237);
+    border-radius: .7rem ;
+}
+ul li i::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    top: .9rem;
+    left: .5rem;
+    background: #fff;
+    transform: rotate(-45deg);
+}
+ul li i::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    top: .9rem;
+    left: .5rem;
+    background: #fff;
+    transform: rotate(45deg);
+}
+ul li.done{
+    background: rgb(0, 81, 0);
+}
+#list-cont{
+    width: 54%;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    height: 10rem;
+    position: relative;
+    left: 8rem;
+    top: 1rem;
+    padding: 1rem;
+    overflow-y: auto;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background: #fff;
+}

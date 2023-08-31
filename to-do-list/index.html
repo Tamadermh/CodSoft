@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:
+    opsz,wght@10..48,300&family=Inter:wght@200&family=League+Spartan:wght@100&family=Tajawal:
+    wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styl.css" />
+    <script src="https://kit.fontawesome.com/a8d4cc4bb0.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="form">
+            <h2 class="title">To Do List <i class="fa-solid fa-clipboard-list"></i></h2>
+            <input type="text" id="input1" placeholder="add your task">
+            
+            <button id="butn" onclick="addTask()">Add</button>
+            <!--
+            <button id="butn2" onclick="removeTask()">Delete</button>
+            -->
+            <ul id="list-cont">
+                <span></span>
+                <!--
+                <li class="list-task">Task 1</li>
+                <li class="list-task">Task 2</li>
+                <li class="list-task">Task 3</li>
+                -->
+            </ul>
+
+            <br>
+        </div>
+        <button id="butn2" onclick="deleteAll()">Remove All !</button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
