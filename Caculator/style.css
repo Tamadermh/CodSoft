@@ -1,0 +1,56 @@
+:root{
+    --fontsize: 30px;
+    --colorback:rgb(255, 224, 230);
+    --radiobox:6rem;
+}
+#continer{
+    margin-top: 2rem;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+#input1{
+    width: 96%;
+    height: 5rem;
+    border: none;
+    background-color: #292929;
+    color: antiquewhite;
+    padding: .77rem;
+
+}
+p{
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 0;
+}
+.prev{
+    background-color: rgb(198, 241, 241);
+}
+.group {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: auto auto auto auto;
+    background-color: #292929;
+    padding: 1rem;
+
+}
+.butnn ,.butn{
+    font-size: 3rem;
+    width: 9rem;
+    height: 6rem;
+}
+.butn{
+    color: cadetblue;
+}
+.ac,.equl{
+    font-size: 2rem;
+    width: 9rem;
+    height: 6rem;
+}
+.ac:hover{
+    background: darkred;
+}
+.equl:hover{
+    background: darkgreen;
+}
