@@ -1,14 +1,12 @@
 
 let inputt=document.querySelector('#input1');
-let list=document.querySelector("#list-cont");
-var inp=document.getElementById('input1');
 var lisstt=document.getElementById('list-cont');
 function addTask(){
-    if(inp.value==''|inp.value==" "){
+    if(inputt.value==''|inputt.value==" "){
         alert("plese enter something")
     }else{
         let li=document.createElement('li');
-        li.innerHTML=`${inp.value}<i></i>`;
+        li.innerHTML=`${inputt.value}<i></i>`;
         li.addEventListener("click",function(e){
             e.target.classList.toggle('done');
     })
@@ -17,7 +15,7 @@ function addTask(){
     })
     lisstt.appendChild(li);
     }
-    inp.value='';
+    inputt.value='';
 }
 inputt.addEventListener("keyup" ,function (event){
     if(event.key=="Enter"){
